@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
 }
 
 body {
@@ -146,13 +145,19 @@ main {
 }
 
 .card h3 {
-  margin-bottom: 10px;
-  color: #264653;
+  color: #049265;
+  margin: 0px;
 }
 
 .card p {
-  display: block;
-  margin: 1px auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#bugado1, #bugado2 {
+  margin-top: 10px;
+
 }
 
 /* FOOTER */
