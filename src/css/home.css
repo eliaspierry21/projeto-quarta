@@ -136,29 +136,30 @@ main {
   justify-content: space-between;
   border-radius: 10px;
   width: 250px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #dcfce7;
-  gap: 12px;
-  border-radius: 16px;
+  gap: 8px;
   box-shadow: 0 0 10px 3px rgb(0 0 0 /20%);
   padding: 10px 15px;
 }
 
 .card h3 {
-  color: #049265;
-  margin: 0px;
+  color: #15803d;
+  margin: 0;
 }
 
 .card p {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 0;
+  margin-top: 0;
   text-align: center;
 }
 
-#bugado1, #bugado2 {
+/* #bugado1,
+#bugado2,
+#bugado3,
+#bugado4,
+#bugado5 {
   margin-top: 10px;
-
-}
+} */
 
 /* FOOTER */
 footer {
@@ -167,4 +168,49 @@ footer {
   text-align: center;
   padding: 20px 10%;
   margin-top: 40px;
+}
+
+/* Medico */
+
+.doutors {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.doutor {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  gap: 25px;
+  box-shadow: 0 0 10px 3px rgb(0 0 0 /20%);
+  padding: 10px 15px;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+  margin: 0;
+}
+
+.abreviacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  color: #15803d;
+  background-color: #68f399;
+  box-shadow: 0 0 10px 3px rgb(0 0 0 /20%);
+  border-radius: 50%;
+}
+
+.cor {
+  color: #15803d;
 }
