@@ -221,6 +221,20 @@ footer {
 
 /* Paciente */ 
 
+
+.title, .welcome-message {
+  margin-bottom: 40px;
+}
+
+.title {
+  padding-right: 400px;
+  color: #16A34A;
+}
+
+.welcome-message {
+  padding-right: 285px;
+}
+
 .appointment-card {
     background: #ffffff;
     border-radius: 16px;
@@ -239,6 +253,10 @@ footer {
     gap: 25px;
 }
 
+.card-title {
+  padding-right: 480px;
+}
+
 .form-group {
     display: flex;
     flex-direction: column;
@@ -250,6 +268,7 @@ footer {
     color: #253f58;
     font-size: 1rem;
     margin-bottom: 5px;
+    padding-right: 680px;
 }
 
 .form-select,
