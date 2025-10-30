@@ -16,9 +16,6 @@ header {
   background-color: #85f2de;
   color: white;
   text-shadow: 4px 4px 0 black;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 10px;
 }
 
