@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paciente</title>
+    <link rel="stylesheet" href="./../css/home.css" />
+  </head>
+  <body>
+    <header>
+      <div id="navbar-placeholder"></div>
+    </header>
+
+    <main class="main">
+      <div class="centro">
+        <section class="especialidades">
+          <h1 class="title">Área Exclusiva do Paciente</h1>
+          <p class="welcome-message">
+            Bem-vindo(a) de volta! Seu ID de Paciente (único) é:
+            <span>160212247848248278</span>
+          </p>
+          <div class="appointment-card">
+            <h2 class="card-title">Novo Agendamento</h2>
+
+            <form class="appointment-form" id="appointmentForm">
+              <div class="form-group">
+                <label for="tipo" class="form-label">Tipo</label>
+                <select id="tipo" name="tipo" class="form-select" required>
+                  <option value="consulta-medica">Consulta Médica</option>
+                  <option value="exame-rotina">Exame de Rotina</option>
+                  <option value="consulta-especialista">
+                    Consulta Especialista
+                  </option>
+                  <option value="retorno">Retorno</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="data" class="form-label">Data</label>
+                <input
+                  type="date"
+                  id="data"
+                  name="data"
+                  class="form-input"
+                  required
+                  min=""
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="hora" class="form-label">Hora</label>
+                <input
+                  type="time"
+                  id="hora"
+                  name="hora"
+                  class="form-input"
+                  required
+                />
+              </div>
+
+              <button type="submit" class="confirm-button">
+                Confirmar Agendamento
+              </button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+      const pathToRoot = "../../";
+    </script>
+    <script src="../../include_navbar.js"></script>
+    <script src="../../include_footer.js"></script>
+  </body>
+</html>

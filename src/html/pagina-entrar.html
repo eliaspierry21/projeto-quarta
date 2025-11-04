@@ -1,31 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Entra</title>
-</head>
-<body>
+    <link rel="stylesheet" href="../css/home.css" />
+  </head>
+  <body>
     <header>
-        <div class="logo">
-          <h1>Clínica Vida Saudável</h1>
-        </div>
-        <div>
-          <nav>
-            <ul>
-              <li><a href="../../index.html">Home</a></li>
-              <li><a href="./consulta.html">Consulta</a></li>
-              <li><a href="#">Exame</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="entrar-button">
-          <nav>
-            <ul>
-              <li><a href="./src/html/login.html">Entrar</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-</body>
+      <div id="navbar-placeholder"></div>
+    </header>
+    <main class="main">
+      <div class="centro">
+        <section class="especialidades">
+          <h1 class="title" id="entrar">Entrar</h1>
+
+          <div class="appointment-card">
+            <form class="appointment-form" id="appointmentForm" action="">
+              <div class="teste">
+                <a class="google" href="https://mail.google.com/"
+                  ><img src="../img/google.png" alt=""
+                /></a>
+
+                <a class="google" href="https://web.facebook.com/"
+                  ><img src="../img/facebook.webp" alt=""
+                /></a>
+              </div>
+
+              <div class="linha-ou">
+                <hr />
+                <span>ou</span>
+                <hr />
+              </div>
+
+              <div class="input-box">
+                <input type="email" placeholder="Usuario" />
+                <i class="bx bxs-user"></i>
+              </div>
+
+              <div class="input-box">
+                <input type="password" placeholder="Senha" />
+                <i class="bx bxs-lock-alt"></i>
+              </div>
+
+              <button type="submit" class="confirm-button">Login</button>
+
+              <div class="esqueceu">
+                <label for="">
+                  <input type="checkbox" />
+                  lembrar senha
+                </label>
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >esqueceu a senha?</a
+                >
+                <p>
+                  Nao tem uma conta
+                  <a href="../html/cadastra.html"> Cadastre-se</a>
+                </p>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+      const pathToRoot = "../../";
+    </script>
+    <script src="../../include_navbar.js"></script>
+    <script src="../../include_footer.js"></script>
+  </body>
 </html>
